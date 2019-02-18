@@ -1298,31 +1298,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="53.34" y="99.06"/>
 </segment>
 </net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="IO16"/>
-<pinref part="U1" gate="U1" pin="QH"/>
-<wire x1="-12.7" y1="86.36" x2="15.24" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="IO4"/>
-<wire x1="-12.7" y1="83.82" x2="2.54" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="83.82" x2="2.54" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U1" gate="U1" pin="CLK"/>
-<wire x1="2.54" y1="93.98" x2="15.24" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="IO0"/>
-<wire x1="-12.7" y1="81.28" x2="0" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="0" y1="81.28" x2="0" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="U1" gate="U1" pin="SH/!LD"/>
-<wire x1="0" y1="96.52" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="+5V" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="VCC"/>
@@ -1390,6 +1365,39 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="103.886" y="50.8"/>
 <junction x="5.08" y="45.72"/>
 <wire x1="103.886" y1="96.52" x2="103.886" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO27"/>
+<wire x1="-48.26" y1="86.36" x2="-50.8" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="86.36" x2="-50.8" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="58.42" x2="2.54" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U1" gate="U1" pin="QH"/>
+<wire x1="2.54" y1="58.42" x2="2.54" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="86.36" x2="15.24" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO26"/>
+<wire x1="-48.26" y1="88.9" x2="-53.34" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="88.9" x2="-53.34" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="0" y1="55.88" x2="0" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="U1" gate="U1" pin="CLK"/>
+<wire x1="0" y1="93.98" x2="15.24" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO25"/>
+<wire x1="-48.26" y1="91.44" x2="-55.88" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="91.44" x2="-55.88" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="53.34" x2="-2.54" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="53.34" x2="-2.54" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U1" gate="U1" pin="SH/!LD"/>
+<wire x1="-2.54" y1="96.52" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
